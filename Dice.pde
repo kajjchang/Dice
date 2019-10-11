@@ -1,5 +1,5 @@
 void setup() {
-	size(500, 600);
+	size(500, 560);
   frameRate(5);
 }
 
@@ -24,7 +24,7 @@ void draw() {
   rect(5, 505, 490 * sum / max, 50, 5);
   textAlign(CENTER);
   fill(0);
-  text("Sum: " + Integer.toString(sum), 5 + 490 * sum / max / 2, 505 + 25);
+  text("Sum: " + sum, 5 + 490 * sum / max / 2, 505 + 25);
 }
 
 void mouseClicked() {
